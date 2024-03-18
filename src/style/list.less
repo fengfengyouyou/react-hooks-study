@@ -1,0 +1,32 @@
+.list-box {
+  width: 800px;
+  min-height: 300px;
+  border-radius: 8px;
+  background-color: bisque;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.list-title {
+  font-size: 22px;
+  color: #222;
+  font-weight: 600;
+}
+.item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 18px;
+  margin-top: 10px;
+  &:first-of-type {
+    margin-top: 0;
+  }
+  .item-text {
+    flex: 1;
+  }
+  .del-icon {
+    cursor: pointer;
+  }
+}
